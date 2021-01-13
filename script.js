@@ -46,16 +46,32 @@ const questions = [
     },
 ]
 
+let questionNum = 0
+questionBox.innerHTML=questions[questionNum].question
+let scoreNum = 0
+score.innerHTML = 0
 // POPULATE QUESTIONS WILL BE A FUNCTION IF/ELSE ATM LAB TEXT CONTENT
 // AFTER QUESTION IS ANSWERED MOVE ON TO NEXT QUESTION
 // LET SCORE START AND 0/10 NEED TO COUNT UP CORRECT T/F INPUTS AND INCREMENT.
 
 // true answer selection NEED TO COMPLETE 
 trueBtn.addEventListener("click", function() {
-
+    if (questions[questionNum].answer === true) {
+        scoreNum ++ 
+        score.innerHTML = scoreNum
+    }
+questionNum ++
+questionBox.innerHTML = questions[questionNum].question
 })
+
 // FALSE answer selection NEED TO COMPLETE 
 falseBtn.addEventListener("click", function() {
+    if (questions[questionNum].answer === false) {
+        scoreNum ++
+        score.innerHTML = scoreNum
+    }
+questionNum ++
+questionBox.innerHTML = questions[questionNum].question
     
 })
 
