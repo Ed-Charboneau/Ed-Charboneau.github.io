@@ -29,7 +29,8 @@ body {
   }
   p {
     color: yellow;
-    font-size: 25px;
+    font-size: 40px;
+    margin: 10px;
   }
 
   .question {
@@ -52,12 +53,6 @@ body {
     height: 25px;
     border-radius: 10px;
     background-color: red;
-  }
-  .score {
-    width: 100px;
-    height: 20px;
-    border-radius: 10px;
-    text-align: center;
   }
   
     button {
