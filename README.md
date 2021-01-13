@@ -22,10 +22,6 @@ This is a game of trivia, with score counter and 10 automotive questions.
 I used an array to load questions and access true/flase buttons.  The true and flase inputs are compared in the array for the correct scoring and the total is tallied up.
 
 
-## Main features:
-- Icon changer.
-- Audio for the tics.
-- A slightly dumb AI.
 
 ## User Stories
 - As a user, I should be able to start a new trivia game by opening the page or selecting reset.
