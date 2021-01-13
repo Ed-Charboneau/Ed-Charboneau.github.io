@@ -74,9 +74,6 @@ questionNum ++
 questionBox.innerHTML = questions[questionNum].question
     
 })
-
-
-
 // reset button is just a page refresh for now
 
 function resetPage(){
